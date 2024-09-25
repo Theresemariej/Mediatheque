@@ -8,9 +8,9 @@ public class Main {
         mediatheque.addItem( new Book("C.S. Lewis","Le Monde de Narnia"));
         mediatheque.addItem( new CD(12, "Sergeant Peppers"));
         mediatheque.addItem( new CD(9, "Parachutes"));
-       // mediatheque.printCatalog();
-        //mediatheque.printOnlyBooks();
-        //mediatheque.printOnlyCDs();
+        mediatheque.printCatalog();
+        mediatheque.printOnlyBooks();
+        mediatheque.printOnlyCDs();
 
        
     }
