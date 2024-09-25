@@ -5,9 +5,13 @@ public class Main {
         Mediatheque mediatheque = new Mediatheque();
         mediatheque.addItem( new Book("J.R.R. Tolkien", "Le seigneur des anneaux"));
         mediatheque.addItem( new Book("Philip K. Dick", "Le Maître du haut chateau"));
+        mediatheque.addItem( new Book("C.S. Lewis","Le Monde de Narnia"));
         mediatheque.addItem( new CD(12, "Sergeant Peppers"));
-        mediatheque.printCatalog();
+        mediatheque.addItem( new CD(9, "Parachutes"));
+       // mediatheque.printCatalog();
         //mediatheque.printOnlyBooks();
         //mediatheque.printOnlyCDs();
+
+       
     }
 }
